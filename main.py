@@ -12,7 +12,7 @@ def format_docs(docs):
 if __name__ == '__main__':
     content_url = "https://kbourne.github.io/chapter1.html"
     embedding_model = "sentence-transformers/all-mpnet-base-v2"
-    llm_model = "Phi-3-mini-4k-instruct-q4.gguf"
+    llm_model = "llama3.2"
 
     embedding = get_embeddings(embedding_model)
     retriever =  download_and_split_contents(content_url, embedding)
