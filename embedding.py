@@ -1,7 +1,7 @@
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
 
-def get_embeddings(model_name:str):
+def get_embeddings(model_name:str) -> HuggingFaceEmbeddings:
     model_kwargs = {"device":"cpu"}
     encode_kwargs = {"normalize_embeddings": False}
 
