@@ -40,9 +40,9 @@ def process_pdf(file_path: str) -> list[str]:
 
 if __name__ == "__main__":
     os.environ["qdrant_api_key"] = "<API KEY>"
-    os.environ["qdrant_host"] = "https://d6645da3-45f6-4bd1-a4cf-41114d64fb7e.us-east4-0.gcp.cloud.qdrant.io"
+    os.environ["qdrant_host"] = "https://9c96db90-045c-4be4-9337-8bdede65f970.europe-west3-0.gcp.cloud.qdrant.io"
 
-    model_name = "qwen2.5"
+    model_name = "qwq"
     embedding_model = "BAAI/bge-small-zh-v1.5"
     collection_name = "pdf_demo"
 
